@@ -21,7 +21,6 @@ image/Screenshot from 2025-01-27 16-25-27.png
 
 
 
-
 ### 2. **Kurulum İşlemi**
 
 İlk olarak, **VirtualBox** paketinin doğru şekilde indirildiğinden emin olduktan sonra, sistemine yüklemek için aşağıdaki komutu kullanıyoruz:
