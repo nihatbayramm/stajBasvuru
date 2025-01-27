@@ -43,8 +43,7 @@ sudo apt --fix-broken install
 
 
 
-![Screenshot from 2025-01-11 20-37-14](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 20-37-14.png)
-
+https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2020-37-14.png
 
 
 
