@@ -15,8 +15,7 @@ wget https://download.virtualbox.org/virtualbox/6.1.34/virtualbox-6.1_6.1.34-149
 
 
 
-![image-20250127162531320](../.config/Typora/typora-user-images/image-20250127162531320.png)
-
+image/Screenshot from 2025-01-27 16-25-27.png
 
 
 
