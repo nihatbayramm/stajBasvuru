@@ -44,7 +44,7 @@ sudo apt --fix-broken install
 
 
 
-![Screenshot from 2025-01-11 20-37-14](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 20-37-14.png)
+![2025-01-11 20-37-14.png'den ekran görüntüsü](https://github.com/nihatbayramm/ozgurYazilim/blob/main/image/Screenshot%20from%202025-01-11%2020-37-14.png?raw=true)
 
 
 
@@ -201,7 +201,7 @@ ip a
 
 **Not:** Ağ türü otomatik olarak nat ağı olarak kurulmuştu bunu değiştirerek Bridged Adapter yaptım **Bridged Adapter**  Sanal makinemin fiziksel ağıma bağlanır ve yerel ağdaki cihazlardan erişilebilir olmasını sağlar. IP adresi doğrudan yerel ağımdan alınır.
 
-### ![Screenshot from 2025-01-14 02-53-24](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 02-53-24.png)
+### ![2025-01-14 02-53-24.png'den ekran görüntüsü](https://github.com/nihatbayramm/ozgurYazilim/blob/main/image/Screenshot%20from%202025-01-14%2002-53-24.png?raw=true)
 
 
 
@@ -631,9 +631,11 @@ Web tarayıcısı üzerinden **http://2025ozgur.com** adresini ziyaret ederek Wo
 
 
 
-100 defa kullanıcı verilerini toplamaycağım sayfası wordpress gorunumu 
 
 
+** **
+
+**100 Defa "Kullanıcı verilerini toplamayacağım" yazısının wordpress'te gösterimi : **
 
 ![2025-01-27 03-36-43.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2003-36-43.png?raw=true)
 
