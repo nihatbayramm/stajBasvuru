@@ -549,7 +549,8 @@ FLUSH PRIVILEGES;
    1. **`wp-config.php` dosyasını düzenliyoruz:**
 
 ```
-bashCopyEditsudo cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
+bash
+sudo cp /var/www/html/wordpress/wp-config-sample.php /var/www/html/wordpress/wp-config.php
 sudo nano /var/www/html/wordpress/wp-config.php
 ```
 
