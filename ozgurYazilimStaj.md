@@ -15,7 +15,8 @@ wget https://download.virtualbox.org/virtualbox/6.1.34/virtualbox-6.1_6.1.34-149
 
 
 
-image/Screenshot from 2025-01-27 16-25-27.png
+![2025-01-27 16-25-27.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2016-25-27.png?raw=true)
+
 
 
 
@@ -43,7 +44,8 @@ sudo apt --fix-broken install
 
 
 
-![image](https://github.com/user-attachments/assets/3a9e459e-bfcf-469b-a0f8-542320e8cb3c)
+![Screenshot from 2025-01-11 20-37-14](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 20-37-14.png)
+
 
 
 
@@ -61,7 +63,7 @@ sudo apt --fix-broken install
 
 
 
-![Screenshot from 2025-01-11 23-24-06](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 23-24-06.png)
+![2025-01-11 23-24-06.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2023-24-06.png?raw=true)
 
 
 
@@ -72,7 +74,7 @@ sudo apt --fix-broken install
 
 
 
-![Screenshot from 2025-01-11 23-24-47](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 23-24-47.png)
+![2025-01-11 23-24-47.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2023-24-47.png?raw=true)
 
 
 
@@ -82,7 +84,9 @@ sudo apt --fix-broken install
 
  
 
-![Screenshot from 2025-01-11 23-26-23](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 23-26-23.png)
+![2025-01-11 23-26-23.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2023-26-23.png?raw=true)
+
+
 
 
 
@@ -92,8 +96,6 @@ sudo apt --fix-broken install
 
 **Bu bölümde, sanal makineyi başlatmak ve işletim sistemi yükleme işlemini başlatmak için "Start" butonuna tıklıyoruz.**
 
-
-
 **Sanal Makineyi Başlatırken Karşılaşılan Hata ve Çözümü**
 
 Sanal makineyi başlatırken **EFI Secure Boot** hatasıyla karşılaşıldığında, bu sorunun çözülmesi için şu adımlar izlenmiştir:
@@ -102,7 +104,7 @@ Sanal makineyi başlatırken **EFI Secure Boot** hatasıyla karşılaşıldığ�
 
 Yapılan bu işlem sonrasında sorun çözülmüş ve sanal makine sorunsuz bir şekilde başlatılabilmiştir.
 
-![Screenshot from 2025-01-12 01-47-33](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-12 01-47-33.png)
+![2025-01-27 19-17-13.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2019-17-13.png?raw=true)
 
 
 
@@ -114,7 +116,7 @@ Seçilen dil, sunucu arayüzü ve diğer sistem mesajlarında kullanılacak vars
 
 
 
-![Screenshot from 2025-01-11 23-43-45](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 23-43-45.png)
+![2025-01-11 23-43-45.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2023-43-45.png?raw=true)
 
 
 
@@ -122,7 +124,7 @@ Seçilen dil, sunucu arayüzü ve diğer sistem mesajlarında kullanılacak vars
 
 Seçilen klavye dili, sunucu üzerinde yapılacak giriş işlemlerinde kullanılan varsayılan düzeni belirler.
 
-![Screenshot from 2025-01-11 23-44-17](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 23-44-17.png)
+![2025-01-11 23-44-17.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2023-44-17.png?raw=true)
 
 
 
@@ -130,7 +132,7 @@ Seçilen klavye dili, sunucu üzerinde yapılacak giriş işlemlerinde kullanıl
 
 Ağ ayarları, sunucunun doğru bir şekilde iletişim kurabilmesi ve dış bağlantılarla etkileşim sağlayabilmesi için yapılandırıyoruz..
 
-![Screenshot from 2025-01-11 23-47-54](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-11 23-47-54.png)
+![2025-01-11 23-47-54.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2023-47-54.png?raw=true)
 
 
 
@@ -138,7 +140,7 @@ Ağ ayarları, sunucunun doğru bir şekilde iletişim kurabilmesi ve dış bağ
 
 Profil ayarları, sunucunun kullanıcı gereksinimlerine uygun şekilde kişiselleştirilmesi ve optimize edilmesi amacıyla yapılandırıyoruz.
 
-![Screenshot from 2025-01-12 01-08-27](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-12 01-08-27.png)
+![2025-01-12 01-08-27.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-12%2001-08-27.png?raw=true)
 
 
 
@@ -146,7 +148,7 @@ Profil ayarları, sunucunun kullanıcı gereksinimlerine uygun şekilde kişisel
 
 SSH ayarları, sunucunun uzaktan güvenli bir şekilde yönetilmesi ve erişilmesi için optimize ediyoruz.
 
-![Screenshot from 2025-01-12 01-10-33](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-12 01-10-33.png)
+![2025-01-12 01-10-33.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-12%2001-10-33.png?raw=true)
 
 
 
@@ -154,7 +156,7 @@ SSH ayarları, sunucunun uzaktan güvenli bir şekilde yönetilmesi ve erişilme
 
 Snap paketleri, sunucunun ihtiyaçlarına uygun olarak optimize edilmiş ve gereksiz paketlerin yüklenmesi engellenmiştir.
 
-![Screenshot from 2025-01-12 01-12-43](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-12 01-12-43.png)
+![2025-01-12 01-12-43.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-12%2001-12-43.png?raw=true)
 
 
 
@@ -175,11 +177,11 @@ Bu adımlar takip edilerek sorun çözülmüş ve yükleme işlemi sorunsuz bir 
 
 Sunucuya güvenli bir şekilde erişim sağlanabilmesi için kullanıcı bilgileri doğrulanmış ve oturum başlatılmıştır.
 
-![Screenshot from 2025-01-12 01-35-37](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-12 01-35-37.png)
+![2025-01-12 01-35-37.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-12%2001-35-37.png?raw=true)
 
 
 
-![Screenshot from 2025-01-12 03-17-46](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-12 03-17-46.png)
+![2025-01-12 03-17-46.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-12%2003-17-46.png?raw=true)
 
 
 
@@ -207,7 +209,7 @@ ip a
 
 **Ağ türü değiştiği vakit ip adreside değişti**
 
-![Screenshot from 2025-01-14 03-06-55](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 03-06-55.png)
+![2025-01-14 03-06-55.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2003-06-55.png?raw=true)
 
 
 
@@ -223,7 +225,7 @@ Kendi bilgisayarımdan (host) şu komutu çalıştırarak sanal makineye bağlan
 ssh nihat@192.168.127.127
 ```
 
-![Screenshot from 2025-01-14 03-19-03](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 03-19-03.png)
+![2025-01-14 03-19-03.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2003-19-03.png?raw=true)
 
 
 
@@ -244,7 +246,7 @@ bash
 ssh-copy-id nihat@192.168.127.127
 ```
 
-![Screenshot from 2025-01-14 03-23-38](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 03-23-38.png)
+![2025-01-14 03-23-38.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2003-23-38.png?raw=true)
 
 
 
@@ -257,7 +259,7 @@ PasswordAuthentication no
 PermitRootLogin no
 ```
 
-![Screenshot from 2025-01-14 03-30-04](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 03-30-04.png)
+![2025-01-14 03-30-04.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2003-30-04.png?raw=true)
 
 
 
@@ -268,7 +270,7 @@ bash
 sudo systemctl restart sshd
 ```
 
-![Screenshot from 2025-01-14 03-35-20](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 03-35-20.png)
+![2025-01-14 03-35-20.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2003-35-20.png?raw=true)
 
 
 
@@ -287,7 +289,7 @@ sudo ufw enable
 sudo ufw status
 ```
 
-![Screenshot from 2025-01-14 04-08-18](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-08-18.png)
+![2025-01-14 04-08-18.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-08-18.png?raw=true)
 
 **Aldığım Hata ve Çözümü:**
 
@@ -326,7 +328,7 @@ sudo systemctl start apache2
 
 
 
-![Screenshot from 2025-01-14 04-15-04](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-15-04.png)
+![2025-01-14 04-15-04.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-15-04.png?raw=true)
 
 
 
@@ -350,13 +352,13 @@ sudo systemctl start apache2
 
 
 
-![Screenshot from 2025-01-14 04-28-56](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-28-56.png)
+![2025-01-14 04-28-56.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-28-56.png?raw=true)
 
 
 
 **Değişiklikleri kaydedip Apache’yi yeniden başlatıyoruz:**
 
-![Screenshot from 2025-01-14 04-30-06](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-30-06.png)
+![2025-01-14 04-30-06.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-30-06.png?raw=true)
 
 
 
@@ -388,15 +390,15 @@ sudo chmod -R 755 /var/www/html
 
 
 
-![Screenshot from 2025-01-14 04-44-19](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-44-19.png)
+![2025-01-14 04-44-19.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-44-19.png?raw=true)
 
 
 
-![Screenshot from 2025-01-14 04-45-21](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-45-21.png)
+![2025-01-14 04-45-21.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-45-21.png?raw=true)
 
 
 
-![Screenshot from 2025-01-14 04-46-58](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 04-46-58.png)
+![2025-01-14 04-46-58.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-46-58.png?raw=true)
 
 
 
@@ -411,9 +413,9 @@ for i in {1..100}; do echo 'Kullanıcılarımın kişisel verilerini toplamayaca
 echo '</body></html>' >> /var/www/html/index.html
 ```
 
-![Screenshot from 2025-01-14 05-13-31](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 05-13-31.png)
+![2025-01-14 05-13-31.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2005-13-31.png?raw=true)
 
-![Screenshot from 2025-01-14 05-18-06](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 05-18-06.png)
+![2025-01-14 05-18-06.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2005-18-06.png?raw=true)
 
 
 
@@ -430,7 +432,7 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 
 
 
-![Screenshot from 2025-01-14 05-38-06](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 05-38-06.png)
+![2025-01-14 05-38-06.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2005-38-06.png?raw=true)
 
 
 
@@ -438,7 +440,7 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 
 
 
-![Screenshot from 2025-01-14 05-42-44](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-14 05-42-44.png)
+![2025-01-14 05-42-44.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2005-42-44.png?raw=true)
 
 
 
@@ -462,7 +464,7 @@ sudo apt update
 sudo apt install mysql-server -y
 ```
 
-![image-20250126020819849](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250126020819849.png)
+![2025-01-26 02-08-14.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-26%2002-08-14.png?raw=true)
 
 
 
@@ -477,7 +479,7 @@ sudo mysql_secure_installation
 
 
 
-![image-20250126021040902](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250126021040902.png)
+![2025-01-26 02-10-38.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-26%2002-10-38.png?raw=true)
 
 
 
@@ -495,7 +497,7 @@ sudo systemctl enable mysql
 
 
 
-![image-20250126021217613](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250126021217613.png)
+![2025-01-26 02-12-11.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-26%2002-12-11.png?raw=true)
 
 
 
@@ -512,7 +514,7 @@ sudo mysql -u root -p
 
 
 
-![image-20250126021258369](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250126021258369.png)
+![2025-01-26 02-12-56.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-26%2002-12-56.png?raw=true)
 
 
 
@@ -563,7 +565,7 @@ define( 'DB_HOST', '192.168.80.223' );
 
 
 
-![Screenshot from 2025-01-26 02-29-14](/home/nihat-bayram/Pictures/Screenshots/Screenshot from 2025-01-26 02-29-14.png)
+![2025-01-26 02-29-14.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-26%2002-29-14.png?raw=true)
 
 
 
@@ -609,13 +611,13 @@ Web tarayıcısı üzerinden **http://2025ozgur.com** adresini ziyaret ederek Wo
 
 
 
-![image-20250127025148305](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250127025148305.png)
+![2025-01-27 02-51-45.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2002-51-45.png?raw=true)
 
 
 
 
 
-![image-20250127025310439](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250127025310439.png)
+![2025-01-27 02-53-08.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2002-53-08.png?raw=true)
 
 
 
@@ -625,7 +627,7 @@ Web tarayıcısı üzerinden **http://2025ozgur.com** adresini ziyaret ederek Wo
 
 - WordPress kontrol paneline gidip, **Ayarlar > Kalıcı Bağlantılar** kısmına tıklıyoruz ve **Post Name** seçeneğini seçiyoruz  Bu, URL'lerin SEO uyumlu olmasını sağlar.
 
-### ![image-20250127031408999](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250127031408999.png)
+### ![2025-01-27 03-14-04.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2003-14-04.png?raw=true)
 
 
 
@@ -633,7 +635,7 @@ Web tarayıcısı üzerinden **http://2025ozgur.com** adresini ziyaret ederek Wo
 
 
 
-![image-20250127033646650](/home/nihat-bayram/.config/Typora/typora-user-images/image-20250127033646650.png)
+![2025-01-27 03-36-43.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2003-36-43.png?raw=true)
 
 
 
