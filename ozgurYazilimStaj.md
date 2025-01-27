@@ -43,7 +43,7 @@ sudo apt --fix-broken install
 
 
 
-https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-11%2020-37-14.png
+![image](https://github.com/user-attachments/assets/3a9e459e-bfcf-469b-a0f8-542320e8cb3c)
 
 
 
