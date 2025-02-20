@@ -647,7 +647,7 @@ Web tarayıcısı üzerinden **http://2025ozgur.com** adresini ziyaret ederek Wo
 
 ** **
 
-**100 Defa "Kullanıcı verilerini toplamayacağım" yazısının wordpress'te gösterimi : **
+**100 Defa "Kullanıcı verilerini toplamayacağım" yazısının wordpress'te gösterimi :**
 
 ![2025-01-27 03-36-43.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-27%2003-36-43.png?raw=true)
 
