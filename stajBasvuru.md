@@ -340,32 +340,57 @@ sudo systemctl start apache2
 
 **Apache için sanal host (VirtualHost) ayarlarını yapıyoruz:**
 
-**Aşağıdaki gibi yapılandırıyoruz:**
-
-```plaintext
+**bugday.org ve buğday.org için VirtualHost :**
+```bash
 <VirtualHost *:80>
     ServerName bugday.org
-    ServerAlias buğday.org 2025ozgur.com
-    DocumentRoot /var/www/html
+    ServerAlias buğday.org
+    DocumentRoot /var/www/html/wordpress
+
+    <Directory /var/www/html/wordpress>
+        AllowOverride All
+        Require all granted
+    </Directory>
 </VirtualHost>
 ```
+https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%202025-02-20%2018-48-42.png?raw=true
+
+**2025ozgur.com için VirtualHost**
+**Bu alan adı kendi dizinine yönlenecek ve /yonetim için parola koruması eklenecek. Bunun için aşağıdaki dosyayı oluşturuyoruz:**
+
+```bash
+<VirtualHost *:80>
+    ServerName 2025ozgur.com
+    ServerAlias www.2025ozgur.com
+    DocumentRoot /var/www/html/2025ozgur
+
+    <Directory /var/www/html/2025ozgur>
+        AllowOverride All
+        Require all granted
+    </Directory>
+
+    <Location \"/yonetim\">
+        AuthType Basic
+        AuthName \"Parola Koruması\"
+        AuthUserFile /etc/apache2/.htpasswd
+        Require valid-user
+    </Location>
+</VirtualHost>
+
+```
+
+https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%202025-02-20%2018-54-15.png?raw=true
 
 
+**VirtualHost Dosyalarını Etkinleştirme**
+**Oluşturduğun her iki VirtualHost dosyasını etkinleştiriyoruz:**
 
-![2025-01-14 04-28-56.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-28-56.png?raw=true)
-
+https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%202025-02-20%2018-56-31.png?raw=true
 
 
 **Değişiklikleri kaydedip Apache’yi yeniden başlatıyoruz:**
 
 ![2025-01-14 04-30-06.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2004-30-06.png?raw=true)
-
-
-
-
-
-
-
 
 
 **5. Bölüm**
