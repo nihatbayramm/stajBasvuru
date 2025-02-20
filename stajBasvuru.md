@@ -353,7 +353,7 @@ sudo systemctl start apache2
     </Directory>
 </VirtualHost>
 ```
-https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%202025-02-20%2018-48-42.png?raw=true
+![image](https://github.com/user-attachments/assets/786756e7-8c05-445f-b4d3-34a396a406b0)
 
 **2025ozgur.com için VirtualHost**
 **Bu alan adı kendi dizinine yönlenecek ve /yonetim için parola koruması eklenecek. Bunun için aşağıdaki dosyayı oluşturuyoruz:**
@@ -379,13 +379,13 @@ https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%20
 
 ```
 
-https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%202025-02-20%2018-54-15.png?raw=true
+![image](https://github.com/user-attachments/assets/508cd5e5-15b9-4150-9533-8cda60ae7604)
 
 
 **VirtualHost Dosyalarını Etkinleştirme**
 **Oluşturduğun her iki VirtualHost dosyasını etkinleştiriyoruz:**
 
-https://github.com/nihatbayramm/stajBasvuru/blob/main/image/Screenshot%20from%202025-02-20%2018-56-31.png?raw=true
+![image](https://github.com/user-attachments/assets/48370efd-7b83-4c51-b90a-374596c287a8)
 
 
 **Değişiklikleri kaydedip Apache’yi yeniden başlatıyoruz:**
