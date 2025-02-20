@@ -460,21 +460,6 @@ sudo nano /etc/apache2/sites-available/000-default.conf
 ![2025-01-14 05-38-06.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2005-38-06.png?raw=true)
 
 
-
-
-
-
-
-![2025-01-14 05-42-44.png'den ekran görüntüsü](https://github.com/nihatbayramm/-zg-ryazilim/blob/main/image/Screenshot%20from%202025-01-14%2005-42-44.png?raw=true)
-
-
-
-
-
-
-
-
-
 **6. Bölüm**
 
 # Veritabanı Sunucusu Kurulumu
