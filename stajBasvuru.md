@@ -318,7 +318,7 @@ bash
 sudo apt install apache2 -y
 ```
 
-Sunucuyu başlatıyoruz ve sistem başlangıcında çalışacak şekilde ayarlıyoruz:
+**Sunucuyu başlatıyoruz ve sistem başlangıcında çalışacak şekilde ayarlıyoruz:**
 
 ```
 bash
@@ -383,7 +383,8 @@ sudo systemctl start apache2
 
 
 **VirtualHost Dosyalarını Etkinleştirme**
-**Oluşturduğun her iki VirtualHost dosyasını etkinleştiriyoruz:**
+
+**Oluşturduğumuz her iki VirtualHost dosyasını etkinleştiriyoruz :**
 
 ![image](https://github.com/user-attachments/assets/48370efd-7b83-4c51-b90a-374596c287a8)
 
