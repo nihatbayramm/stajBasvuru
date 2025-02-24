@@ -1,7 +1,7 @@
 
 **VirtualBox Kurulumu:**
 
-1. **VirtualBox Paketinin İndirilmesi**
+###1. **VirtualBox Paketinin İndirilmesi**
 
 İlk olarak, VirtualBox'ın uygun sürümünü belirliyoruz. Ubuntu 24.04 sürümüne uygun olan **`.deb`** paketini resmi web sitesinden indiriyoruz. Bu aşamada, sistemle uyumlu sürümün seçilmesine dikkat ediyoruz.
 
