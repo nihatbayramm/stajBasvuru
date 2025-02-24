@@ -1,7 +1,7 @@
 
 **VirtualBox Kurulumu:**
 
-###1. **VirtualBox Paketinin İndirilmesi**
+**1.VirtualBox Paketinin İndirilmesi**
 
 İlk olarak, VirtualBox'ın uygun sürümünü belirliyoruz. Ubuntu 24.04 sürümüne uygun olan **`.deb`** paketini resmi web sitesinden indiriyoruz. Bu aşamada, sistemle uyumlu sürümün seçilmesine dikkat ediyoruz.
 
@@ -11,7 +11,7 @@ wget https://download.virtualbox.org/virtualbox/6.1.34/virtualbox-6.1_6.1.34-149
 ```
 ![image](https://github.com/user-attachments/assets/b1ec4e09-1c7d-4388-b6dc-a74927559777)
 
-2. **Kurulum İşlemi**
+**2.Kurulum İşlemi**
 
 İlk olarak, **VirtualBox** paketinin doğru şekilde indirildiğinden emin olduktan sonra, sistemine yüklemek için aşağıdaki komutu kullanıyoruz:
 
@@ -21,7 +21,7 @@ sudo dpkg -i virtualbox-7.1_7.1.4-165100~Ubuntu~noble_amd64.deb
 ```
 ![image](https://github.com/user-attachments/assets/322234cc-2d2f-486f-860c-0127221d241f)
 
-###  **Bağımlılık Sorunlarının Giderilmesi**
+**Bağımlılık Sorunlarının Giderilmesi**
 
 Kurulum işlemi sırasında eksik bağımlılıklar nedeniyle hata mesajları alındığında, aşağıdaki komutu kullanarak eksik bağımlılıkları yükleriz:
 
@@ -34,16 +34,16 @@ sudo apt --fix-broken install
 
 **Bu bölümde, oluşturacağımız sanal makine için isim ve işletim sistemi tercihlerini belirliyoruz.**
 
-- **Makine Adı**: Sanal makineyi kolayca tanıyabilmek için anlamlı ve uygun bir isim seçin.
-- **İşletim Sistemi Türü ve Sürümü**: Sanal makinenin çalıştıracağı işletim sistemi türünü (örneğin, Windows, Linux, macOS) ve sürümünü doğru şekilde seçin. Bu, sanal makinenin performansı ve uyumluluğu açısından kritik bir adımdır.
+**-Makine Adı**: Sanal makineyi kolayca tanıyabilmek için anlamlı ve uygun bir isim seçin.
+**-İşletim Sistemi Türü ve Sürümü**: Sanal makinenin çalıştıracağı işletim sistemi türünü (örneğin, Windows, Linux, macOS) ve sürümünü doğru şekilde seçin. Bu, sanal makinenin performansı ve uyumluluğu açısından kritik bir adımdır.
 
 ![image](https://github.com/user-attachments/assets/b3d3e342-6c4a-46bf-a128-e5fde1ff21da)
 
 
 **Bu bölümde, sanal makine için bellek ve işlemci çekirdeği ayarlarını yapılandırıyoruz.**
 
-- **Bellek (RAM) Ayarı**: Sanal makinenin ihtiyaçlarını karşılayacak uygun bellek miktarını belirliyoruz. Bellek miktarını seçerken, ana sistemin stabil çalışması için yeterli kaynak bulundurmayı göz önünde bulunduruyoruz.
-- **Çekirdek Sayısı**: Sanal makinenin kullanacağı işlemci çekirdeği sayısını ayarlıyoruz. Performansı artırmak için daha fazla çekirdek seçebiliriz; ancak bu seçimde ana sistemin kaynak ihtiyaçlarını da göz ardı etmiyoruz.
+**- Bellek (RAM) Ayarı**: Sanal makinenin ihtiyaçlarını karşılayacak uygun bellek miktarını belirliyoruz. Bellek miktarını seçerken, ana sistemin stabil çalışması için yeterli kaynak bulundurmayı göz önünde bulunduruyoruz.
+**- Çekirdek Sayısı**: Sanal makinenin kullanacağı işlemci çekirdeği sayısını ayarlıyoruz. Performansı artırmak için daha fazla çekirdek seçebiliriz; ancak bu seçimde ana sistemin kaynak ihtiyaçlarını da göz ardı etmiyoruz.
 
 ![image](https://github.com/user-attachments/assets/e774f16e-cce1-4f25-b3f5-57d821c520af)
 
