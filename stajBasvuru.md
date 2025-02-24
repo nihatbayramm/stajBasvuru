@@ -79,6 +79,7 @@ sudo apt --fix-broken install
 
 
 **Bu bölümde, sunucunun dil ayarları yapılandırıyorur.**
+
 -Seçilen dil, sunucu arayüzü ve diğer sistem mesajlarında kullanılacak varsayılan dili belirler.
 
 ![image](https://github.com/user-attachments/assets/c42b8777-ad8b-470b-8d3c-8097a8458621)
@@ -87,6 +88,7 @@ sudo apt --fix-broken install
 
 
 **Bu bölümde, sunucunun klavye dilini yapılandırıyoruz.**
+
 -Seçilen klavye dili, sunucu üzerinde yapılacak giriş işlemlerinde kullanılan varsayılan düzeni belirler.
 
 ![image](https://github.com/user-attachments/assets/0af0b49a-a46e-49f0-b4bb-4091d9705de2)
@@ -95,6 +97,7 @@ sudo apt --fix-broken install
 
 
 **Bu bölümde, sunucunun ağ yapılandırması gerçekleştiriyoruz.**
+
 -Ağ ayarları, sunucunun doğru bir şekilde iletişim kurabilmesi ve dış bağlantılarla etkileşim sağlayabilmesi için yapılandırıyoruz..
 
 ![image](https://github.com/user-attachments/assets/b38b595d-fc8e-470e-befb-8a545f2d931b)
@@ -103,6 +106,7 @@ sudo apt --fix-broken install
 
 
 **Bu bölümde, sunucu için profil yapılandırmasını gerçekleştiriyoruz**
+
 -Profil ayarları, sunucunun kullanıcı gereksinimlerine uygun şekilde kişiselleştirilmesi ve optimize edilmesi amacıyla yapılandırıyoruz.
 
 ![image](https://github.com/user-attachments/assets/9cf8306e-2bcb-4bec-92ac-d0d961ef7ea9)
@@ -111,6 +115,7 @@ sudo apt --fix-broken install
 
 
 **Bu bölümde, SSH paketlerini yüklenmesini gerçekleştiriyoruz.**
+
 -SSH ayarları, sunucunun uzaktan güvenli bir şekilde yönetilmesi ve erişilmesi için optimize ediyoruz.
 
 ![image](https://github.com/user-attachments/assets/b7ba2228-d05d-47b5-9641-715d7e9b1bf9)
@@ -119,6 +124,7 @@ sudo apt --fix-broken install
 
 
 **Bu bölümde, sunucunun snap paketleri yapılandırılmış ve yalnızca gerekli olanlar seçiyoruz.**
+
 -Snap paketleri, sunucunun ihtiyaçlarına uygun olarak optimize edilmiş ve gereksiz paketlerin yüklenmesi engellenmiştir.
 
 ![image](https://github.com/user-attachments/assets/4025e7ee-f459-4688-9dda-a83f732e0c7d)
