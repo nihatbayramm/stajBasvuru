@@ -159,28 +159,28 @@ sudo apt --fix-broken install
 
 **A. Genel Yapı**
 
--Sunucu Tipi	IP Adresi	Görevi
+-Sunucu Tipleri ve 	IP Adresleri :
 
--Web Sunucusu	192.168.176.89	Apache, WordPress, 2025ozgur.com
+-Web Sunucusunda	(192.168.176.89)	Apache, WordPress, 2025ozgur.com kurulumlarını yapazacaz
 
--Veritabanı Sunucusu	192.168.176.146	MariaDB
+-Veritabanı Sunucusunda	(192.168.176.146)	MariaDB kurulumunu yapacaz
 
--Host (Sizin Bilgisayar)	192.168.176.136	SSH ile sunuculara bağlanma
+-Host (192.168.176.136)	SSH ile sunuculara bağlanacaz
 
 
 **B. Güncellemeler ve Paket Yönetimi**
 
 ```
 bash
-sudo apt update && sudo apt upgrade -y
+sudo apt update && sudo apt upgrade -y # Sistem paketlerini günceller ve mevcut yazılımları en son sürüme yükseltir
 ```
 
 
 **C. Veritabanı Sunucusu (192.168.176.146) Ayarları**
 
-**1. MariaDB Kurulumu ve Yapılandırma**
+**1. MariaDB Kurulumu ve Yapılandırma İşlemelri**
 
- **Root SSH Anahtarını Kopyalama (Host Makineden)**
+**Root SSH Anahtarını Kopyalama (Host Makineden)**
 ```
 # Host makineden (192.168.176.136):
 ssh-copy-id -i ~/.ssh/id_ed25519.pub root@192.168.176.146
