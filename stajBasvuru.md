@@ -251,11 +251,17 @@ sudo systemctl enable apache2
 ```
 
 -sudo mkdir -p /var/www/bugday.org/public_html      # Web sitesi dizinini oluşturur (-p ile varsa hata vermez)
+
 -sudo chown -R www-data:www-data /var/www/bugday.org  # Web sunucusunun (Apache/Nginx) dizine erişmesini sağlar
+
 -cd /tmp                                            # Geçici dizine gider, burada dosya indirilecek
+
 -wget https://wordpress.org/latest.tar.gz           # WordPress'in en son sürümünü indirir
+
 -tar -xzvf latest.tar.gz                            # İndirilen WordPress dosyasını çıkarır
+
 -sudo cp -R wordpress/* /var/www/bugday.org/public_html/  # WordPress dosyalarını hedef dizine kopyalar
+
 -sudo cp /var/www/bugday.org/public_html/wp-config-sample.php /var/www/bugday.org/public_html/wp-config.php  # Örnek yapılandırma dosyasını kopyalar
 
 **WordPress yapılandırma dosyasını düzenlemek için aşağıdaki komutu giriyoruz**
