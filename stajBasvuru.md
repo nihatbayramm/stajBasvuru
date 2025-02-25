@@ -386,5 +386,37 @@ sudo systemctl reload apache2     # Apache'yi yeniden yükleyerek yapılan deği
 ```
 
 
+**Son Kontroller**
+
+**WordPress Testi:**
+
+-https://bugday.org üzerinden kurulumu tamamlıyoruz.
+-ilk olarrak dil ayarlamasını yapıyoruz
+![image](https://github.com/user-attachments/assets/8b49b83e-05c5-4dbb-973a-d4b849a62b12)
+
+-sonrasında temel biligiler girildikten sonra ad.soyad kullanıcı adı ve parola şeklinde şifreyı giriyoruz
+![image](https://github.com/user-attachments/assets/2b3dbec7-dea4-40a8-a29d-295c52089973)
+
+
+
+**Kalıcı Bağlantılar için ayarlar >  kalıcı bağlantılar > kalıcı bağlantı yapısı > ozel yapı >  "%postname%" olarak ayarlıyoruz.**
+
+![image](https://github.com/user-attachments/assets/92c58524-7ed2-4ff5-9c3f-2906439aa66c)
+
+
+
+**Yeni bir yazı eklemek için yazılar > yeni yazı ekle adımlarını takip ediyoruz**
+
+![image](https://github.com/user-attachments/assets/74829710-f517-4613-8d7d-772d8c38f79a)
+
+![image](https://github.com/user-attachments/assets/88fa749b-de82-4ba3-b8f7-a18617b9c680)
+
+
+**2025ozgur.com Testi**
+
+-www.2025ozgur.com ve 2025ozgur.com web sitelerinin görünümü :
+![image](https://github.com/user-attachments/assets/2228ad51-6d2f-40b6-8b09-2f6667c5fe63)
+
+
 
 
