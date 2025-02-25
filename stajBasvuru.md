@@ -154,5 +154,237 @@ sudo apt --fix-broken install
 
 
 
+**2. Temel Sistem Ayarları**
+
+**A. Genel Yapı**
+
+-Sunucu Tipi	IP Adresi	Görevi
+
+-Web Sunucusu	192.168.176.89	Apache, WordPress, 2025ozgur.com
+
+-Veritabanı Sunucusu	192.168.176.146	MariaDB
+
+-Host (Sizin Bilgisayar)	192.168.176.136	SSH ile sunuculara bağlanma
+
+
+**B. Güncellemeler ve Paket Yönetimi**
+
+```
+bash
+sudo apt update && sudo apt upgrade -y
+```
+
+
+**C. Veritabanı Sunucusu (192.168.176.146) Ayarları**
+
+**1. MariaDB Kurulumu ve Yapılandırma**
+
+ **Root SSH Anahtarını Kopyalama (Host Makineden)**
+```
+# Host makineden (192.168.176.136):
+ssh-copy-id -i ~/.ssh/id_ed25519.pub root@192.168.176.146
+```
+
+# MariaDB Kurmak için aşağıdaki komutu giriyoruz:
+```
+sudo apt update && sudo apt install mariadb-server -y
+```
+
+![image](https://github.com/user-attachments/assets/eb7cc7d7-3780-496d-a98f-5f05f42774fd)
+
+
+# Güvenlik Ayarları için aşağıdaki komutları giriyoruz:
+```
+sudo mysql_secure_installation
+#Root parola belirle (Ör: DBrootPass123!), anonim kullanıcıları siler, root uzaktan erişimi engeller.
+```
+![image](https://github.com/user-attachments/assets/63458cda-a614-4444-b2e1-aa41c5a10ccf)
+
+
+# WordPress için Veritabanı ve Kullanıcı Oluşturuyoruz:
+```
+sudo mysql -u root -p
+```
+
+![image](https://github.com/user-attachments/assets/dbfe80dc-7235-4dda-b486-2054e6c57109)
+
+```
+CREATE DATABASE wp_bugday;
+CREATE USER 'wp_user'@'192.168.176.89' IDENTIFIED BY 'password!';
+GRANT ALL PRIVILEGES ON wp_bugday.* TO 'wp_user'@'192.168.176.89';
+FLUSH PRIVILEGES;
+EXIT;
+```
+
+![image](https://github.com/user-attachments/assets/35c531e1-871c-4537-8db5-22aedaa8d955)
+
+**Uzak Erişim İzni ve Güvenlik Duvarı :**
+
+```
+sudo nano /etc/mysql/mariadb.conf.d/50-server.cnf  # bind-address = 0.0.0.0
+sudo systemctl restart mariadb
+sudo ufw allow from 192.168.176.89 to any port 3306/tcp
+sudo ufw enable
+
+```
+
+![image](https://github.com/user-attachments/assets/af440c0e-3767-47a5-8588-a044fbc24533)
+
+
+
+
+**2. Web Sunucusu (192.168.176.89) Kurulumu **
+
+**Root SSH Anahtarını Kopyalama (Host Makineden) :**
+
+```
+# Host makineden (192.168.176.136):
+ssh-copy-id -i ~/.ssh/id_ed25519.pub root@192.168.176.89
+```
+
+**Apache ve PHP Kurulum Komutları**
+
+```
+sudo apt update && sudo apt install apache2 php php-mysql php-curl php-gd php-xml php-mbstring -y
+sudo systemctl enable apache2
+```
+
+***sudo mkdir -p /var/www/bugday.org/public_html      # Web sitesi dizinini oluşturur (-p ile varsa hata vermez)
+sudo chown -R www-data:www-data /var/www/bugday.org  # Web sunucusunun (Apache/Nginx) dizine erişmesini sağlar
+cd /tmp                                            # Geçici dizine gider, burada dosya indirilecek
+wget https://wordpress.org/latest.tar.gz           # WordPress'in en son sürümünü indirir
+tar -xzvf latest.tar.gz                            # İndirilen WordPress dosyasını çıkarır
+sudo cp -R wordpress/* /var/www/bugday.org/public_html/  # WordPress dosyalarını hedef dizine kopyalar
+sudo cp /var/www/bugday.org/public_html/wp-config-sample.php /var/www/bugday.org/public_html/wp-config.php  # Örnek yapılandırma dosyasını kopyalar**
+
+**WordPress yapılandırma dosyasını düzenlemek için aşağıdaki komutu giriyoruz**
+
+```
+sudo nano /var/www/bugday.org/public_html/wp-config.php 
+```
+**Değiştirilecek Satırlar:**
+```
+php
+define('DB_NAME', 'wp_bugday');
+define('DB_USER', 'database');
+define('DB_PASSWORD', 'password!');
+define('DB_HOST', '192.168.176.146');
+
+```
+
+![image](https://github.com/user-attachments/assets/c1a39d9a-47f8-43e7-8ec5-51235c7c4cac)
+
+**Apache VirtualHost (bugday.org & buğday.org) Ayarlamaları :**
+
+```
+sudo nano /etc/apache2/sites-available/bugday.conf
+```
+
+**içerik şöyle olacak :**
+```
+<VirtualHost *:80>
+    ServerName bugday.org
+    ServerAlias xn--bday-0qa.org # buğday.org'un Punycode karşılığı türkçe karakterde sıkıntı olmaması için
+    DocumentRoot /var/www/bugday.org/public_html
+    <Directory /var/www/bugday.org/public_html>
+        AllowOverride All
+        Require all granted
+    </Directory>
+</VirtualHost>
+```
+
+![image](https://github.com/user-attachments/assets/76e93493-68a5-4ab3-a3b6-cba310c44e4b)
+
+```
+sudo a2ensite bugday.conf        # Apache'de bugday.conf adlı sanal host (VirtualHost) dosyasını etkinleştirir
+sudo a2enmod rewrite             # Apache'nin mod_rewrite özelliğini etkinleştirir (URL yönlendirme için gereklidir)
+sudo systemctl reload apache2    # Apache'yi yeniden yükleyerek yapılan değişiklikleri uygular (servisi tamamen kapatıp açmaz)
+```
+
+**2025ozgur.com Kurulumu **
+
+```
+sudo mkdir -p /var/www/2025ozgur.com/public_html
+sudo nano /var/www/2025ozgur.com/public_html/index.html
+```
+
+**içerik :**
+
+```                                                               
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <div id="output"></div>
+
+    <script>
+        let output = "";
+        for (let i = 0; i < 100; i++) {
+            output += "Kullanıcıların kişisel verilerini toplamayacağım.<br>";
+        }
+        document.getElementById("output").innerHTML = output;
+    </script>
+</body>
+</html>
+
+```
+
+![image](https://github.com/user-attachments/assets/96583964-6c17-4827-aa1b-912587a1b87a)
+
+**Parola Korumalı Dizin:**
+
+```
+sudo htpasswd -c /etc/apache2/.htpasswd ad.soyad  # Parola: parola
+sudo mkdir /var/www/2025ozgur.com/public_html/yonetim
+sudo nano /var/www/2025ozgur.com/public_html/yonetim/.htaccess
+
+```
+
+**içerik :**
+```                                                                   
+AuthType Basic
+AuthName "Yönetim Paneli"
+AuthUserFile /etc/apache2/.htpasswd
+Require valid-user
+```
+
+![image](https://github.com/user-attachments/assets/67570c5a-3cf2-44b1-97f5-30411eeab4f8)
+
+**VirtualHost:**
+
+```
+sudo nano /etc/apache2/sites-available/2025ozgur.conf
+```
+
+**içerik :**
+
+```
+<VirtualHost *:80>
+    ServerName 2025ozgur.com
+    ServerAlias www.2025ozgur.com
+    DocumentRoot /var/www/2025ozgur.com/public_html
+
+    <Directory "/var/www/2025ozgur.com/public_html/yonetim">
+        AuthType Basic
+        AuthName "Yönetim Paneli"
+        AuthUserFile /etc/apache2/.htpasswd
+        Require valid-user
+    </Directory>
+</VirtualHost>
+```
+
+![image](https://github.com/user-attachments/assets/3b2c58c4-4d25-4caa-bd5b-87e2093410ad)
+
+```
+sudo a2ensite 2025ozgur.conf      # Apache'de 2025ozgur.conf adlı sanal host (VirtualHost) dosyasını etkinleştirir
+sudo systemctl reload apache2     # Apache'yi yeniden yükleyerek yapılan değişiklikleri uygular (servisi tamamen kapatıp açmaz)
+
+```
+
+
 
 
