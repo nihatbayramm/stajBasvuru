@@ -250,19 +250,24 @@ sudo apt update && sudo apt install apache2 php php-mysql php-curl php-gd php-xm
 sudo systemctl enable apache2
 ```
 
--sudo mkdir -p /var/www/bugday.org/public_html      # Web sitesi dizinini oluşturur (-p ile varsa hata vermez)
 
--sudo chown -R www-data:www-data /var/www/bugday.org  # Web sunucusunun (Apache/Nginx) dizine erişmesini sağlar
+```
+sudo mkdir -p /var/www/bugday.org/public_html        # Web sitesi dizinini oluşturur (-p ile varsa hata vermez)
 
--cd /tmp                                            # Geçici dizine gider, burada dosya indirilecek
+sudo chown -R www-data:www-data /var/www/bugday.org    # Web sunucusunun (Apache/Nginx) dizine erişmesini sağlar
 
--wget https://wordpress.org/latest.tar.gz           # WordPress'in en son sürümünü indirir
+cd /tmp                                                   # Geçici dizine gider, burada dosya indirilecek
 
--tar -xzvf latest.tar.gz                            # İndirilen WordPress dosyasını çıkarır
+wget https://wordpress.org/latest.tar.gz               # WordPress'in en son sürümünü indirir
 
--sudo cp -R wordpress/* /var/www/bugday.org/public_html/  # WordPress dosyalarını hedef dizine kopyalar
+tar -xzvf latest.tar.gz                               # İndirilen WordPress dosyasını çıkarır
 
--sudo cp /var/www/bugday.org/public_html/wp-config-sample.php /var/www/bugday.org/public_html/wp-config.php  # Örnek yapılandırma dosyasını kopyalar
+sudo cp -R wordpress/* /var/www/bugday.org/public_html/        # WordPress dosyalarını hedef dizine kopyalar
+
+sudo cp /var/www/bugday.org/public_html/wp-config-sample.php /var/www/bugday.org/public_html/wp-config.php  # Örnek yapılandırma dosyasını kopyalar
+```
+
+
 
 **WordPress yapılandırma dosyasını düzenlemek için aşağıdaki komutu giriyoruz**
 
