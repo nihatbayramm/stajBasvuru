@@ -133,6 +133,7 @@ sudo apt --fix-broken install
 
 
 **Yükleme İşlemi Sonrası Karşılaşılan Hata ve Çözümü**
+
 -Yükleme işlemi başlatıldıktan sonra **"failed unmounting cdrom.mount - /cdrom"** hatasıyla karşılaşılmıştır. Bu hatayı çözmek için aşağıdaki adımlar izlenmiştir:
 1. VirtualBox ana penceresinden sanal makine seçilmiştir.
 2. Üst menüdeki **Settings (Ayarlar)** kısmına tıklanmıştır.
