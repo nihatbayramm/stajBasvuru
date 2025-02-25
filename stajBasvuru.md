@@ -402,7 +402,7 @@ sudo systemctl reload apache2     # Apache'yi yeniden yükleyerek yapılan deği
 
 **WordPress Testi:**
 
--https://bugday.org üzerinden kurulumu tamamlıyoruz.
+-http://bugday.org üzerinden kurulumu tamamlıyoruz.
 -ilk olarrak dil ayarlamasını yapıyoruz
 ![image](https://github.com/user-attachments/assets/8b49b83e-05c5-4dbb-973a-d4b849a62b12)
 
