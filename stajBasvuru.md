@@ -313,7 +313,7 @@ sudo a2enmod rewrite             # Apache'nin mod_rewrite özelliğini etkinleş
 sudo systemctl reload apache2    # Apache'yi yeniden yükleyerek yapılan değişiklikleri uygular (servisi tamamen kapatıp açmaz)
 ```
 
-**2025ozgur.com Kurulumu **
+**2025ozgur.com Kurulumu**
 
 ```
 sudo mkdir -p /var/www/2025ozgur.com/public_html
