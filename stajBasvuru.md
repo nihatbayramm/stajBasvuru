@@ -317,7 +317,7 @@ sudo systemctl reload apache2    # Apache'yi yeniden yükleyerek yapılan deği�
 
 ```
 sudo mkdir -p /var/www/2025ozgur.com/public_html
-sudo nano /var/www/2025ozgur.com/public_html/index.html
+sudo nano /var/www/2025ozgur.com/public_html/index.php
 ```
 
 **içerik :**
