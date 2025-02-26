@@ -424,9 +424,18 @@ sudo systemctl reload apache2     # Apache'yi yeniden yükleyerek yapılan deği
 
 **2025ozgur.com Testi**
 
-- 2025ozgur.com wwwozgurcom web sitelerinin görünümü :
+- 2025ozgur.com web sitesinin görünümü :
 ![image](https://github.com/user-attachments/assets/2228ad51-6d2f-40b6-8b09-2f6667c5fe63)
 
 
+**www2025ozgur.com testi**
+![image](https://github.com/user-attachments/assets/43afb06c-b2e7-48e1-b1d1-eb40d9d3911a)
+
+
+**2025ozgur.com/yonetim testi:**
+
+![image](https://github.com/user-attachments/assets/66dcd27f-f7f8-4631-bf96-b8ac6d05ed3c)
+
+![image](https://github.com/user-attachments/assets/6fcbcf99-83a1-4e67-885f-c9713bf7c865)
 
 
