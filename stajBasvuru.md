@@ -434,8 +434,8 @@ sudo systemctl reload apache2     # Apache'yi yeniden yükleyerek yapılan deği
 
 **2025ozgur.com/yonetim testi:**
 
-![image](https://github.com/user-attachments/assets/66dcd27f-f7f8-4631-bf96-b8ac6d05ed3c)
+![image](https://github.com/user-attachments/assets/fff1bc00-2c0d-415a-b231-7851ac4c0557)
 
-![image](https://github.com/user-attachments/assets/6fcbcf99-83a1-4e67-885f-c9713bf7c865)
+![image](https://github.com/user-attachments/assets/dcbfb558-2526-4a06-9726-1e20cb781359)
 
 
