@@ -234,7 +234,7 @@ sudo ufw enable
 
 
 
-**2. Web Sunucusu (192.168.176.89) Kurulumu **
+**2. Web Sunucusu (192.168.176.89) Kurulumu**
 
 **Root SSH Anahtarını Kopyalama (Host Makineden) :**
 
