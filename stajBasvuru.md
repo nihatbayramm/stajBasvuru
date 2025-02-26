@@ -328,24 +328,21 @@ sudo nano /var/www/2025ozgur.com/public_html/index.html
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 </head>
 <body>
-    <div id="output"></div>
-
-    <script>
-        let output = "";
-        for (let i = 0; i < 100; i++) {
-            output += "Kullanıcıların kişisel verilerini toplamayacağım.<br>";
-        }
-        document.getElementById("output").innerHTML = output;
-    </script>
+    <div id="output">
+        <?php
+            for ($i = 0; $i < 100; $i++) {
+                echo "Kullanıcıların kişisel verilerini toplamayacağım.<br>";
+            }
+        ?>
+    </div>
 </body>
 </html>
 
 ```
 
-![image](https://github.com/user-attachments/assets/96583964-6c17-4827-aa1b-912587a1b87a)
+![image](https://github.com/user-attachments/assets/d87d5079-c5db-4043-a671-b7ddf02cb2d7)
 
 **Parola Korumalı Dizin:**
 
